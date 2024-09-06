@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+input[type="text"], 
+input[type="number"], button, select 
+{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+.tk:hover {
+    background-color: rgb(235, 213, 229);
+}
+.sx:hover {
+    background-color:  rgb(205, 195, 207);
+}

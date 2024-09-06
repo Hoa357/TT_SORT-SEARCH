@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm Kiếm và Sắp Xếp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script type="text/javascript" src="search.js" ></script>
+    <div class="container">
+        <h1>Tìm Kiếm và Sắp Xếp</h1>
+        <input type="text" id="numberList" placeholder="Nhập danh sách số (cách nhau bởi dấu phẩy)" />
+        <input type="number" id="searchNumber" placeholder="Nhập số cần tìm" />
+        <select id="searchMethod">
+            <option value="linear">Tìm Kiếm Tuần Tự</option>
+            <option value="binary">Tìm Kiếm Nhị Phân</option>
+        </select>
+        <button onclick="search()" class="tk">Tìm Kiếm</button>
+        <button onclick="sortNumbers()" class="sx">Sắp Xếp Danh Sách</button>
+        <button onclick="clearInputs()" class="clear">Xóa</button>
+        <div class="result" id="resultMessage"></div>
+    </div>
+
+    
+</body>
+</html>
