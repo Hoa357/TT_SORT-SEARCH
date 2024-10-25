@@ -1,0 +1,86 @@
+body {
+     font-family: Arial, sans-serif;
+ }
+
+ .result {
+     margin-top: 20px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .inpudata {
+     width: 70%;
+     height: 30px;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .inputmain {
+     width: 100%;
+     text-align: center;
+ }
+
+ .search,
+ .clear,
+ .sort {
+     background-color: green;
+     color: azure;
+     width: 120px;
+     height: 30px;
+     margin: 10px;
+ }
+
+ .clear {
+     background-color: red;
+ }
+
+ .sort {
+     background-color: orange;
+ }
+
+ .btn {
+     border: none;
+ }
+
+ table {
+     margin-top: 20px;
+     border-collapse: collapse;
+     width: 80%;
+ }
+
+ th,
+ td {
+     border: 1px solid #ddd;
+     padding: 8px;
+     text-align: left;
+ }
+
+ th {
+     background-color: #f2f2f2;
+ }
+
+ .result-content {
+     text-align: center;
+     display: flex;
+     justify-content: center;
+ }
+
+ table {
+     width: 70%;
+     text-align: center;
+ }
+
+ strong {
+     text-align: center;
+     display: flex;
+     justify-content: center;
+ }
+
+ .description {
+     margin-top: 50px;
+     display: flex;
+     justify-content: center;
+ }

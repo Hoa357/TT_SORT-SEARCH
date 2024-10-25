@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tìm Kiếm Và Sắp Xếp</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center; color: blue">Tìm Kiếm Và Sắp Xếp</h1>
+    <h3 style="text-align: center; margin-bottom: 50px">
+      Vui lòng nhập vào dãy số
+    </h3>
+    <div class="inputmain">
+      <input
+        id="inputData"
+        type="text"
+        placeholder="Nhập dãy số, ví dụ: 1, 2, 3"
+        class="inpudata"
+      />
+      <input
+        id="target"
+        type="number"
+        class="inpudata"
+        placeholder="Nhập giá trị cần tìm"
+      />
+
+      <select id="algorithmSelect" class="inpudata">
+        <option value="Tìm kiếm tuần tự">Tìm kiếm tuần tự</option>
+        <option value="Tìm kiếm nhị phân">Tìm kiếm nhị phân</option>
+
+        <option value="Tìm kiếm trong danh sách liên kết">
+          Tìm kiếm trong danh sách liên kết
+        </option>
+        <option value="Tìm kiếm theo hàm băm">Tìm kiếm theo hàm băm</option>
+      </select>
+
+      <select id="algorithmSort" class="inpudata">
+        <option value="Sắp xếp nổi bọt">Sắp xếp nổi bọt</option>
+        <option value="Sắp xếp chọn">Sắp xếp chọn</option>
+        <option value="Sắp xếp chèn">Sắp xếp chèn</option>
+        <option value="Sắp xếp trộn">Sắp xếp trộn</option>
+      </select>
+    </div>
+    <div class="result" id="resultSort"></div>
+    <div class="result" id="resultSearch" style="display: none"></div>
+    <div style="width: 100%; display: flex; justify-content: center">
+      <button id="sortButton" class="btn sort">Sắp Xếp</button>
+      <button id="Lookbutton" class="btn search">Tìm Kiếm</button>
+      <button id="clearButton" class="btn clear">Xóa</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
